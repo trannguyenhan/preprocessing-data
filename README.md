@@ -1,4 +1,4 @@
-# Tiền xử lý dữ liệu Tiếng Việt
+# Tiền xử lý dữ liệu văn bản Tiếng Việt
 Dữ liệu thô được lây từ [https://github.com/duyvuleo/](https://github.com/duyvuleo/VNTC/tree/master/Data/27Topics/Ver1.1) đặt trong thư mục `raw-data`. <br />
 Dữ liệu sau khi xử lý được đặt trong thư mục `clean-data`. <br />
 Tiền xử lý dữ liệu được thực hiện qua các bước : 

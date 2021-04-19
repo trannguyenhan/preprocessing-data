@@ -160,3 +160,8 @@ def tien_xu_li(text):
 
 	return text
 
+if __name__ == "__main__":
+    file = open("test.txt", "r", encoding="utf-8")
+    data = file.read()
+    data = tien_xu_li(data)
+    print(data)

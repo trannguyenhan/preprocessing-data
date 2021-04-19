@@ -8,6 +8,11 @@ Tiền xử lý dữ liệu được thực hiện qua các bước :
 - Tách từ tiếng Việt
 - Đưa cả đoạn văn về trên 1 dòng, xóa các khoảng cách thừa
 
+file `standardize.py` sẽ giải quyết vấn đề trên với mỗi văn bản đưa vào, file `preprocessing_data.py`sẽ đọc tất cả dữ liệu, nó gọi đến module trong `standardize.py` để chuẩn hóa mọi văn bản nó đọc được, văn bản sau khi được chuẩn hóa sẽ được lưu trong thư mục `clean-data`, tập train được lưu ở `clean-data/train`, tập test được lưu ở `clean-data/test`. <br />
+`split_data.txt` sẽ chia lại dữ liệu train và test theo ý muốn <br />
+file `delete_stopword.py` sẽ loại bỏ stop word và các từ xuất hiệt ít trong tập dữ liệu, trả về tập từ điển và tần xuất xuất hiện của mỗi từ trong file `dictionary.txt` <br />
+danh sách các nhãn lưu tại file `list_name.txt` <br />
+
 ### Ví dụ 
 Có một đoạn văn bản gốc như trong file `text.txt`, sau khi xử lý thì nó sẽ thành :
 ```

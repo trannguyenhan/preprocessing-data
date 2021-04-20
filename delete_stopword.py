@@ -22,7 +22,7 @@ def remove_stopword(dictionary):
 def remove_lower_word(dictionary):
 	new_dictionary = {}
 	for word in dictionary : 
-		if dictionary[word] < 15: 
+		if dictionary[word] < 30: 
 			lower_word.append(word)
 		else :
 			new_dictionary[word] = dictionary.get(word)

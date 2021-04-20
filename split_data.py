@@ -50,5 +50,5 @@ def split_data(percent):
 
 if __name__ == "__main__":
 	# Nếu cần gộp data thì hãy bỏ comment để sử dụng hàm này 
-	# data_aggregation()
+	data_aggregation()
 	split_data(70)

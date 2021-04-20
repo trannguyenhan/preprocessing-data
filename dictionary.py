@@ -29,7 +29,7 @@ def size_of_dictionary():
 
 if __name__ == "__main__":
 	# lấy từ điển 
-	get_dictionary()
+	get_dictionary("clean-data")
 
 	# in số lượng từ điển 
 	size_of_dictionary()

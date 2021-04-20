@@ -138,7 +138,7 @@ def chuan_hoa_dau_cau_tieng_viet(sentence):
 # Tuy nhiên từ tiếng Việt có cả từ đơn lẫn từ ghép nên tách từ tiêng Việt sẽ phúc tạp hơn 
 # Project sử dung thu viện pyvi (xem mã nguồn tại : https://github.com/trungtv/pyvi) để phục vụ bài toán con tách từ Tiếng Việt 
 def tach_tu_tieng_viet(text):
-	ViTokenizer.tokenize(text)
+	text = ViTokenizer.tokenize(text)
 	return text
 
 # Đưa về chữ viết thường 

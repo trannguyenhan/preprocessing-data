@@ -1,5 +1,5 @@
 import os
-from dictionary import get_dictionary, dictionary
+from dictionary import get_dictionary
 
 stopword = []
 lower_word = []
@@ -55,7 +55,8 @@ def print_dictionary(dictionary):
 		f.write(word + " " + str(dictionary.get(word)) + "\n")
 
 if __name__ == "__main__":
-	get_dictionary("clean-data")
+	dictionary = {}
+	dictionary = get_dictionary("clean-data")
 	print("size of dictionary before remove stop word and lower word : " + str(len(dictionary)))
 
 	dictionary = remove_stopword(dictionary)

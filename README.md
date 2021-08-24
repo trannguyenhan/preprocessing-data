@@ -1,7 +1,9 @@
-# Nếu bạn muốn xem phiên bản được viết bằng python với các file .py thì hãy chuyển sang nhánh master
-# Tiền xử lý dữ liệu văn bản Tiếng Việt
-Dữ liệu thô được lây từ [https://github.com/duyvuleo/](https://github.com/duyvuleo/VNTC/tree/master/Data/27Topics/Ver1.1) đặt trong thư mục `raw-data`. <br />
-Dữ liệu sau khi xử lý được đặt trong thư mục `clean-data`. <br />
+## Nếu bạn muốn xem phiên bản được viết bằng python với các file .py thì hãy chuyển sang nhánh master
+## Tiền xử lý dữ liệu văn bản Tiếng Việt
+Dữ liệu thô được lây từ [https://github.com/duyvuleo/](https://github.com/duyvuleo/VNTC/tree/master/Data/27Topics/Ver1.1) đặt trong thư mục `raw-data`.
+
+Dữ liệu sau khi xử lý được đặt trong thư mục `clean-data`.
+
 Tiền xử lý dữ liệu được thực hiện qua các bước : 
 - Chuẩn hóa unicode 
 - Chuẩn hóa cách gõ dấu tiếng Việt
